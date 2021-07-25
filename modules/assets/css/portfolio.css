@@ -1,0 +1,225 @@
+/* ALL POSTS*/
+
+.list-group-item h3{
+    color: #ff704d;
+    font-weight: 600;
+}
+
+.archive-row {
+    margin: 0 10px;
+    padding: 0;
+}
+.archive-content h4{
+    color: #ff704d;
+    font-weight: 500;
+}
+.archive-content p{
+    text-align: justify !important;
+}
+/* ALL POSTS*/
+
+
+/* HEADER + BASIC INFO */
+
+#basic-info-section {
+    width: 90%;
+    margin: 0 auto;
+}
+.title-section{
+    font-family: proxima-nova;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.title-section h1{
+    color: #322d53;
+    font-weight: 400;
+    font-family: Prata;
+    font-size: 48px;
+}
+#breadcrumbs{
+    list-style:none;
+    margin:10px 0;
+    overflow:hidden;
+    padding-left: 0 !important;
+}
+  
+#breadcrumbs li{
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:15px;
+}
+#breadcrumbs li a{
+    color: #949494;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.bread-current{
+    color: #322D53;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+  
+#breadcrumbs .separator{
+    font-size:18px;
+    font-weight:100;
+    color:#ccc;
+}
+.basic-info{
+    padding:100px 0;
+}
+.basic-info h6{
+    color: #322d53;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.basic-info p{
+    color: #949494;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+@media (min-width: 768px){
+    .categories{
+       margin-left: 8%;
+    }
+}
+/* HEADER + BASIC INFO */
+
+/* POST CONTENT */
+
+.post-content-1, .post-content-2{
+    /* margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw); */
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.post-content-1 .row, .post-content-2 .row {
+    margin: 0;
+  
+}
+.post-content-1 .img, .post-content-2 .img{
+        padding-top: 275px !important;
+        padding-bottom: 200px !important;
+        background-position-x: 50%;
+        background-size: cover !important;
+}
+.post-content-1 h2, .post-content-2 h2, .get-in-touch h2 {
+    color: #322d53;
+    font-weight: 400;
+    font-family: Prata;
+    font-size: 24px;
+    line-height: 48px;
+}
+.separator-line {
+    border-top: 2px solid;
+    border-color: #ff704d;
+    width: 50px;
+    height: 1px;
+}
+.text .description, .get-in-touch h6{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #949494;
+    margin-bottom: 20px;
+}
+.post-content-1 .text, .post-content-2 .text{
+    padding: 150px 80px 0 80px;
+}
+.get-in-touch {
+    padding: 100px 0;
+}
+.related-projects {
+    background-color: #f5f5f5;
+    margin: 0 !important;
+    margin-bottom: 0px !important;
+}
+.related-projects h3{
+    color: #322d53;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: Montserrat;
+    padding-top: 80px;
+    padding-bottom: 24px;
+}
+.related-projects .card-portfolio {
+    border-radius: 7px;
+    box-shadow: 0 25px 98px 0 rgba(0,0,0,0.1);
+    background-color: #fff;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+    height: 100%;
+    min-height: 466px;
+    /* transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+}
+.portfolio-section .row {
+    margin: 0;
+}
+.card-portfolio:hover{
+    animation: bounce 0.5s ease-in;
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-fill-mode: forwards;
+    
+}
+@keyframes bounce{
+    
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(-20px);
+
+    }
+}
+
+.related-projects .card-portfolio img{
+    border-radius: 7px !important;
+    padding: 15px;
+}
+.card-portfolio a, .card-portfolio h5{
+    color: #322d53;
+    font-weight: 700;
+}
+.card-portfolio h5{
+    font-size: 20px !important;
+}
+.card-portfolio #right-arrow{
+    font-size: 14px;
+}
+.card-portfolio a:hover{
+    text-decoration: none;
+    color: #ff704d;
+}
+.card-portfolio .fa-folder-open, .fa-check{
+    color: #ff704d;
+}
+.card-portfolio .blog-label{
+    color: #949494;
+    font-size: 14px;
+}
+@media (min-width: 767px){
+    .post-content-1 h2, .post-content-2 h2, .get-in-touch h2 {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 1024px){
+    .get-in-touch #get-started {
+    width: 30%;
+}
+}
+@media (max-width: 1024px){
+    #basic-info-section {
+        width: 100%;
+    }
+}
+
+
+/* POST CONTENT */
+

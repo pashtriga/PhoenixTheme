@@ -1,0 +1,121 @@
+/* Active Events Component */
+
+.charity-image img {
+    width: 300px !important;
+    height: 240px !important;
+    border-radius: 15px;
+}
+
+@media only screen and (min-width: 760px) {
+    .charity-image img {
+        width: 350px !important;
+        height: 290px !important;
+    }
+}
+
+#charity-content {
+    border-radius: 10px;
+    text-align: center;
+    width: 85%;
+    margin-top: -50px;
+    margin-left: 25px;
+    background-color: white;
+}
+.testing{
+    animation: bounce2 0.5s ease-in;
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-fill-mode: forwards;        
+}
+
+@keyframes bounce2{
+    
+    50% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(-50px);
+
+    }
+}
+
+#active-events-section a {
+    text-decoration: none;
+    color: #322d53;
+}
+
+.hovered {
+    color: #ff704d;
+    cursor: pointer;  
+}
+
+#charity-content h4 {
+    font-size: 20px;
+    font-weight: bold !important;
+}
+
+#charity-content p {
+    font-size: 14px;
+    color: #949494;
+    padding-top: 0;
+    margin-top: -10px;
+}
+
+.active-events {
+    background-color: rgb(244, 246, 247) !important;
+}
+
+.active-events .event-title-paragraph {
+    margin-bottom: -50px !important;
+}
+
+.event-title {
+    text-align: center;
+    color: #322d53;
+    margin-bottom: 20px;
+}
+
+.event-paragraph {
+    text-align: center;
+    color: #949494;
+}
+
+.inpire-quote {
+    /* width: 75%; */
+    text-align: center;
+}
+
+.donate-buttoni {
+    /* width: 25%; */
+    text-align: center;
+}
+
+.donateBTN {
+    border-radius: 25px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #ff704d !important;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    min-height: 48px;
+    width: 200px;
+    font-weight: 700;
+}
+
+.donateBTN:hover {
+    border: 2px solid #ff704d;
+    background-color: #fff !important;
+    color: #ff704d;
+}
+
+.inpire-quote h2 {
+    color: #322d53;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+.inpire-quote p {
+    color: #949494;
+}
+
+/* Active Events Component */

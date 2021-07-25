@@ -1,0 +1,77 @@
+.valuablesection {
+    background-color: #e9e9e9;
+}
+.valuablesection .row {
+    margin: 0;
+    padding: 0;
+}
+.valuablephoto {
+    background: url("../images/charity8.jpg") no-repeat center ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.valuablecontent{
+    padding: 0 50px;
+}
+.valuabletitle {
+    min-height: 60vh;
+    color: #322D53;
+    font-family: Prata;
+}
+.valuablecount {
+    min-height: 40vh;
+}
+.valuablecount h3{
+    min-height: 3vh;
+    font-size: 1.2rem;
+    color: #322D53;
+    font-weight: bold;
+}
+.valuablecount .spanblue{
+    color: #322D53;
+}
+.valuablecount p {
+    font-size: 1rem;
+    color: grey;
+}
+.valuablecount span{
+    color: #FF704D;
+}
+.valuablecount h1 {
+    font-size: 4rem;
+}
+@media only screen and (max-width: 760px) {
+    .valuablecontent{
+        padding: 0 8px;
+    }
+    .valuabletitle {
+        min-height: 40vh;
+    }
+    .valuabletitle h1{
+        font-size: 2rem;
+        padding: 0 15px;
+    }
+    .valuablecount h3{
+        min-height: 7vh;
+    }
+    .valuablecount {
+        display: flex;
+        flex-direction: row;
+    }
+    .valuablephoto {
+        height: 100vh;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .valuablecontent > div{
+        padding: 0 !important;
+    }
+    .valuabletitle {
+        min-height: 30vh !important;
+    }
+    .valuablecount {
+        min-height: 20vh !important;
+    }
+}

@@ -1,0 +1,174 @@
+
+/* Causes Component */
+
+.bgcolor1VOL{
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+.containercontent1VOL{
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.foto1VOL{
+    height: auto;    
+}
+.cardthyrjeVOL {
+    height: 40rem;
+    border-radius: 3%;
+}
+.foto1VOL:hover{
+    opacity: 1;
+}
+.fotoinsideVOL{
+    border-radius: 3%;
+    height:25rem;
+}
+.owl-stage{
+    display: flex;
+    align-items: center;
+}
+.owl-item {
+font-family: sans-serif;
+font-weight: bold;
+display: flex;
+justify-content: center;
+padding: 1rem;
+}
+
+#causeTitullVOL{
+    color: #322D53;
+    padding: 70px 0 20px 0;
+    font-family: 'Prata', serif;
+}
+.cardthyrjeVOL .card-title{
+    color: #322D53;
+    font-family: 'Prata', serif;
+    margin-bottom: 0;
+}
+.cardthyrjeVOL h5{
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
+.cardthyrjeVOL p {
+    font-size: 0.9rem;
+    margin: 15px 0;
+}
+.cardthyrjeVOL .card-body {
+    padding: 10px;
+}
+
+
+.causeAllVOL{
+    background-color: #fafafa;
+    margin-top: -10px;
+}
+.causeTopVOL p, .foto1VOL{
+    color: #949494;
+}
+.causeTopVOL {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Prata', serif;
+}
+.active {
+margin:0;
+padding: 0;
+}
+.owl-prev {
+    width: 40px;
+    position: absolute;
+    top: 40%;
+    left: -50px;
+    display: block !important;
+}
+
+.owl-next {
+    width: 40px;
+    position: absolute;
+    top: 40%;
+    right: -50px;
+    display: block !important;
+}
+
+.butoVOL {
+    background-color: #fafafa;
+} 
+.owl-nav:hover button.owl-next:hover,  button.owl-prev:hover,  button.owl-dot:hover{
+    background-color: #fafafa;
+    outline: none;
+    box-shadow: none;
+
+}
+
+.volsocials a .fa:hover
+{
+    color: white !important;
+    text-decoration: none;
+    background-color: #FF704D !important;
+
+}
+.volsocials a .fa::before {
+    padding: 3px;
+}
+.volsocials a .fa {
+    color: #FF704D !important;
+    font-size: 14px;
+    background-color: #ff714d59;
+    border-radius: 50%;
+    padding: 5px;
+}
+#voltest {
+    height: 5rem;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+  
+
+@media only screen and (max-width: 600px) {
+    .causeTopVOL {
+        width: 80%;  
+    }
+}
+
+
+.expbuttons  #afterexp {
+    max-width: 0;
+    -webkit-transition: max-width 0.5s;
+    transition: max-width 0.5s;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    overflow: hidden;
+
+  }
+  .expbuttons a .fa:hover,
+  .expbuttons a .fa:after,
+  .expbuttons a .fa:hover:after,
+  .expbuttons a .fa:hover:active
+   {
+    border-radius: 15px !important;
+    background-color: #ff714d59 !important;
+    color: #FF704D !important;
+  }
+  .expbuttons:hover #afterexp {
+    max-width: 7rem;
+    font-size: 0.8rem;
+  }
+ 
+  nav:hover button.owl-next:hover,  button.owl-prev:hover,  button.owl-dot:hover{
+    background-color: #fafafa;
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+
+
+  
+
+

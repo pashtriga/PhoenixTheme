@@ -1,0 +1,28 @@
+.postet {
+    padding-bottom: 25px;
+    border-bottom: 2px solid rgb(194, 122, 122) !important;
+    margin-bottom: 40px;
+}
+
+.pagination {
+    padding: 10px 50px;
+}
+
+.page-numbers {
+    padding: 7px;
+    margin: 0 3px;
+    border: 1px solid grey;
+}
+.page-numbers:hover{
+    border: 2px solid rgb(194, 122, 122) !important;
+    color: rgb(194, 122, 122) !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+.post-title {
+    text-align: center;
+}
+
+.post-title .titulli {
+    color: rgb(194, 122, 122) !important;
+}

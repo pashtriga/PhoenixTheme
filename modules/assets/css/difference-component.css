@@ -1,0 +1,206 @@
+/* Difference component */
+
+.diffbackground {
+    background: url("../images/charity7.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+    margin-bottom: -10px;
+}
+
+.makeadifference div {
+    font-family: 'Prata', serif;
+    font-size: 3.2rem;
+}
+
+.asistance h1 {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lartdiff {
+    height: 30vw;
+}
+
+.makeadifference {
+    height: 20vh;
+    width: 37vw;
+    padding-right: 20px;
+}
+
+.makeadifference2 {
+    height: 10vh;
+    width: 37vw;
+}
+
+.coldiff2 {
+    background-color: rgba(7, 5, 5, 0.651);
+}
+
+.butonidiff {
+    background-color: #FF704D !important;
+    color: white;
+    border-radius: 25px;
+    border-style: none;
+    width: 10rem;
+    margin-right: 50px;
+    font-size: 0.8rem;
+}
+
+.butonidiff:hover {
+    background-color: #322D53 !important;
+}
+
+.butonidiff2 {
+    background-color: #FF704D;
+    color: white;
+    border-radius: 25px;
+    border-style: none;
+    border: 1px solid #FF704D;
+    font-size: 0.8rem;
+}
+
+.butonidiff2:hover {
+    background-color: #322d5300;
+    color: #FF704D;
+}
+
+.butonidiff2:focus,
+.butonidiff2:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.progress-bar {
+    background-color: #FF704D;
+    height: 15px;
+}
+
+.progress {
+    height: 15px;
+    background-color: rgba(83, 81, 81, 0.651);
+}
+
+#progdiff {
+    color: #FF704D;
+}
+
+@media only screen and (max-width: 760px) {
+    .diffbackground {
+        height: 100vh;
+        display: flex;
+        align-items: flex-start !important;
+        justify-content: center;
+    }
+    .lartdiff {
+        margin: 50px 0 0 !important;
+        padding: 0 !important;
+        height: 100vh;
+        display: flex;
+        align-items: flex-start;
+        justify-content: start;
+    }
+    .makeadifference {
+        height: 15vh;
+        width: 90vw;
+        margin: 0 20px !important;
+        padding: 0 20px !important;
+    }
+    .makeadifference #word {
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
+    }
+    .makeadifference2 {
+        height: 10vh;
+        width: 90vw;
+        margin: 20px 20px 0 !important;
+        padding: 0 20px !important;
+    }
+    .asistance {
+        margin: 0 !important;
+        padding: 20px 0 !important;
+    }
+    .asistance h2 {
+        font-size: 1.5rem !important;
+        margin: 0 0 15px !important;
+        padding: 0 !important;
+        display: flex;
+        justify-content: center;
+    }
+    .timeri h1 {
+        font-size: 1.2rem !important;
+    }
+    .timeri h5 {
+        font-size: 1rem !important;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .makeadifference {
+        height: 15vh;
+        width: 40vw;
+        margin: 0 20px !important;
+        padding: 0 20px !important;
+    }
+    .makeadifference2 {
+        width: 38vw;
+        margin: 0 20px !important;
+        padding: 40px 20px !important;
+    }
+}
+
+.asistance {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.butonidiff {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.asistance {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.butonidiff {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fotoloading {
+    width: 30px;
+}
+
+.buto {
+    background-color: #fafafa;
+}
+
+/* Difference component*/

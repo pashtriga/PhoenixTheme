@@ -1,0 +1,31 @@
+/* Logos Parts - Owl Carousel */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bgcolor {
+    background-color: #f4f2f0;
+    margin: 0;
+    padding: 0;
+}
+
+.containercontent {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.foto {
+    width: 130px;
+    height: auto;
+    opacity: 0.3;
+}
+
+.foto:hover {
+    opacity: 1;
+}
+
+/* Logos Parts - Owl Carousel */

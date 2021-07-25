@@ -1,0 +1,121 @@
+
+/* Causes Component */
+
+.bgcolor1{
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+.containercontent1{
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.foto1{
+    height: auto;    
+}
+.cardthyrje {
+    height: 28rem;
+    border-radius: 3%;
+}
+.foto1:hover{
+    opacity: 1;
+}
+.fotoinside{
+    border-radius: 3%;
+    height: 12rem;
+}
+.owl-stage{
+    display: flex;
+    align-items: center;
+}
+.owl-item {
+font-family: sans-serif;
+font-weight: bold;
+display: flex;
+justify-content: center;
+padding: 1rem;
+}
+#butoniCard{
+background-color: #FF704D;
+color: white;
+border-radius: 25px;
+border-style: none;
+width: 10rem;
+border: 1px solid #FF704D;
+
+}
+.cardthyrje .card-title{
+    color: #322D53;
+    font-family: 'Prata', serif;
+
+}
+#butoniCard:hover {
+background-color: white;
+color: #FF704D;
+}
+#butoniCard:focus,
+#butoniCard:active {
+outline: none;
+box-shadow: none;
+}
+#causeTitull{
+    color: #322D53;
+    padding: 70px 0 20px 0;
+    font-family: 'Prata', serif;
+}
+#causeTitull .card-title{
+    color: #322D53;
+    font-family: 'Prata', serif;
+}
+
+
+.causeAll{
+    background-color: #fafafa;
+}
+.causeTop p, .foto1{
+    color: #949494;
+}
+.causeTop {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Prata', serif;
+}
+.active {
+margin:0;
+padding: 0;
+}
+.owl-prev {
+    width: 40px;
+    position: absolute;
+    top: 40%;
+    left: -50px;
+    display: block !important;
+}
+
+.owl-next {
+    width: 40px;
+    position: absolute;
+    top: 40%;
+    right: -50px;
+    display: block !important;
+}
+
+.buto {
+    background-color: #fafafa;
+} 
+nav:hover button.owl-next:hover,  button.owl-prev:hover,  button.owl-dot:hover{
+    background-color: #fafafa;
+    outline: none;
+    box-shadow: none;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .causeTop {
+        width: 80%;  
+    }
+}
+
